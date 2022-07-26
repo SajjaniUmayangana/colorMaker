@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     
     @IBAction func changeColorComponent() {
         
-        // Make sure the program doesn't crash if the controls aren't connected
+        
         if self.redSwitch == nil {
             return
         }
